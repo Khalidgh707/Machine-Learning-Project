@@ -3,6 +3,16 @@
 Predicting the heating load of buildings from their shape and glazing, using the UCI Energy Efficiency dataset (ENB2012).
 This is a supervised regression problem
 * Course: DS471 Machine Learning, College of Computing and Informatics
+* CRN: 10700
+### Group members
+  
+* (Khalid A ALghamdi, ID:210038421)
+
+* (Fahad Alkhamees, ID:220033879)
+
+* (Abdullah S Almutairi, ID:230031752)
+
+ ### Dataset: 
 * Dataset: UCI Energy Efficiency (768 simulated buildings, 8 inputs, 2 outputs)
 * Target: `heating_load` (Y1). The other output, `cooling_load` (Y2), is not used as an input.
 
@@ -13,7 +23,7 @@ This is a supervised regression problem
 
 When the data cell asks for a file, upload `data/ENB2012_data.xlsx` from the report or from this link
 
-https://archive.ics.uci.edu/dataset/242/energy+efficiency.
+[download dataset](https://archive.ics.uci.edu/dataset/242/energy+efficiency)
 
 # Project stages
 1. **Data cleaning, preparation and EDA**: missing values, duplicates, outliers, one-hot encoding, correlations, feature importance.
@@ -40,4 +50,35 @@ https://archive.ics.uci.edu/dataset/242/energy+efficiency.
 | Ridge Regression | 2.112 | 2.848 | 0.925 |
 
 **The Random Forest is the most suitable model for this dataset**.
+
+## Repository structure
+```
+DS471ML_project.ipynb   main notebook (run top to bottom)
+data/ENB2012_data.xlsx          dataset
+figures/                        figures created by the notebook
+results/                        result tables (CSV)
+README.md
+```
+
+## Run locally
+```
+jupyter notebook DS471ML_project.ipynb
+```
+
+
+
+
+## Course:
+### DS471
+
+
+
+## Deadline:
+### 30/11/2026
+
+
+
+## Data source
+Tsanas, A. and Xifara, A. (2012). Accurate quantitative estimation of energy performance of residential buildings using statistical machine learning tools. Energy and Buildings. Dataset from the UCI Machine Learning Repository.
+
 
