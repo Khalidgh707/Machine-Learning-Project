@@ -69,7 +69,7 @@ jupyter notebook DS471ML_project.ipynb
 
 
 ## Course:
-### DS471
+### DS-471
 
 
 
