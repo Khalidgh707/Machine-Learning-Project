@@ -9,4 +9,5 @@ This is a supervised regression problem
 ## Run the notebook in Google Colab
 https://colab.research.google.com/drive/1TxArhvFamRfFedOyZ18lNFSpiJRrERfZ?usp=sharing
 Open in Colab
-When the data cell asks for a file, upload `data/ENB2012_data.xlsx`.
+When the data cell asks for a file, upload `data/ENB2012_data.xlsx` from the report or from this link https://archive.ics.uci.edu/dataset/242/energy+efficiency.
+
