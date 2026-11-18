@@ -69,12 +69,12 @@ jupyter notebook DS471ML_project.ipynb
 
 
 ## Course:
-### DS-471
+ DS-471
 
 
 
 ## Deadline:
-### 30/11/2026
+ 30/11/2026
 
 
 
