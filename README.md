@@ -7,8 +7,8 @@ This is a supervised regression problem
 * Target: `heating_load` (Y1). The other output, `cooling_load` (Y2), is not used as an input.
 
 ## Run the notebook in Google Colab
-https://colab.research.google.com/drive/1TxArhvFamRfFedOyZ18lNFSpiJRrERfZ?usp=sharing
-Open in Colab
+[Open in Colab](https://colab.research.google.com/drive/1TxArhvFamRfFedOyZ18lNFSpiJRrERfZ?usp=sharing)
+
 
 
 When the data cell asks for a file, upload `data/ENB2012_data.xlsx` from the report or from this link
