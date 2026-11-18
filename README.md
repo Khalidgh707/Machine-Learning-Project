@@ -21,3 +21,23 @@ https://archive.ics.uci.edu/dataset/242/energy+efficiency.
 3. **Model selection**: Ridge (Linear) Regression, Random Forest, Neural Network.
 4. **Training and tuning**: Grid Search with 5-fold cross-validation, Early Stopping, training/validation curves.
 5. **Final evaluation**: MAE, MSE, RMSE and R2 on the test set.
+
+
+## Models
+| Model | Main settings |
+|---|---|
+| Linear Regression / Ridge | alpha tuned by grid search (best 0.1) |
+| Random Forest | 300 trees, max_depth 20, min_samples_leaf 1 |
+| Neural Network (scikit-learn MLPRegressor) | hidden layers 128-64, ReLU, Adam, Early Stopping |
+
+
+## Test results
+| Model | MAE | RMSE | R2 |
+|---|---|---|---|
+| Random Forest | 0.334 | 0.499 | 0.998 |
+| Neural Network | 0.659 | 0.950 | 0.992 |
+| Linear Regression | 2.110 | 2.847 | 0.925 |
+| Ridge Regression | 2.112 | 2.848 | 0.925 |
+
+**The Random Forest is the most suitable model for this dataset**.
+
