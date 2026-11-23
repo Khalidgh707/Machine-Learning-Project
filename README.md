@@ -4,7 +4,7 @@ Predicting the heating load of buildings from their shape and glazing, using the
 This is a supervised regression problem
 * Course: DS471 Machine Learning, College of Computing and Informatics
 * CRN: 10700
-### Group members
+### Group members:
   
 * (Khalid A ALghamdi, ID:210038421)
 
